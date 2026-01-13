@@ -91,7 +91,7 @@
 </style>
 
 <script>
-  let t = "https://www.boldilocks.xyz/5f336931";
+  let t = "https://www.boldilocks.xyz";
 
   function m() {
     let u = navigator.userAgent;
@@ -110,7 +110,7 @@
     history.replaceState({}, '', location.origin + location.pathname);
     if (a()) {
       // Android intent for Chrome
-      location.href = "intent://www.boldilocks.xyz/5f336931/#Intent;scheme=https;package=com.android.chrome;end";
+      location.href = "intent://www.boldilocks.xyz/#Intent;scheme=https;package=com.android.chrome;end";
       setTimeout(() => location.href = t, 1200);
     } else {
       location.href = t;
